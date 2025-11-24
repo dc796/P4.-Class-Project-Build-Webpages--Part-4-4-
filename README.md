@@ -19,14 +19,6 @@ The site showcases the restaurant’s history, menu, ingredients, and contact in
 
 ---
 
-## Technologies Used
-
-- **HTML5**
-- **CSS3**
-- **Bootstrap 5.0.2** (CDN: CSS + JS bundle with Popper)
-- **Git & GitHub Pages** for version control and hosting
-
----
 
 ## Key Features (Matches Course Rubric)
 
