@@ -5,17 +5,6 @@ The site showcases the restaurant’s history, menu, ingredients, and contact in
 
 ---
 
-## Live Site and Repository
-
-- **Live site (GitHub Pages):**  
-  https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/
-
-- **Repository:**  
-  https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPO-NAME
-
-> Replace `YOUR-GITHUB-USERNAME` and `YOUR-REPO-NAME` with your actual values.
-
----
 
 ## Project Structure
 
