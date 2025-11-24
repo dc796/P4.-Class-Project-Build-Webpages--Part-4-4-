@@ -1,0 +1,155 @@
+/* DEVELOPER: Darren Cheng, IS117-005, Fall 2025 */
+
+/* ---------------------------------------------------
+   GLOBAL STYLES
+--------------------------------------------------- */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------------------------------------------
+   NAVBAR
+--------------------------------------------------- */
+.navbar-dark .nav-link {
+    color: #f8f9fa !important;
+}
+
+.navbar-dark .nav-link:hover,
+.navbar-dark .dropdown-item:hover {
+    color: #ffcc00 !important;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+}
+
+/* ---------------------------------------------------
+   HERO SECTIONS
+--------------------------------------------------- */
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.hero-history {
+    background-color: #17a2b8;
+}
+
+.hero-about {
+    background-color: #6c757d;
+}
+
+.hero-contact {
+    background-color: #0d6efd;
+}
+
+/* ---------------------------------------------------
+   CAROUSEL
+--------------------------------------------------- */
+.carousel-item img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ---------------------------------------------------
+   CARDS (Menu / Ingredients)
+--------------------------------------------------- */
+
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+
+/* ---------------------------------------------------
+   MENU TABLE
+--------------------------------------------------- */
+.menu-table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.menu-table th {
+    background-color: #b22222;
+    color: #fff;
+    padding: 12px;
+}
+
+.menu-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+/* ---- About Us Page: Larger Cards ---- */
+.card {
+    width: 100%;
+    max-width: 360px;     /* make the card wider */
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.card-img-top {
+    height: 330px;        /* much larger images */
+    object-fit: cover;    /* crops images nicely without stretching */
+}
+
+.card-body {
+    padding: 1.5rem;      /* gives more breathing room */
+}
+
+.card-title {
+    font-size: 1.35rem;   /* make names bigger */
+    font-weight: bold;
+}
+/* ---------------------------------------------------
+   FOOTER
+--------------------------------------------------- */
+.footer {
+    background-color: #111;
+    padding: 15px 0;
+    text-align: center;
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-top: 50px;
+}
+
+/* ---------------------------------------------------
+   RESPONSIVE FIXES
+--------------------------------------------------- */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 260px;
+    }
+
+    .menu-table {
+        width: 100%;
+        font-size: 1rem;
+    }
+}

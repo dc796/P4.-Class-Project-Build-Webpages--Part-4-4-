@@ -1,0 +1,132 @@
+<!-- DEVELOPER: Darren Cheng, IS117-005, Fall 2025 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sin Yu - Home</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- 🔹 Navbar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+        <img src="Logo%20Image/Sin%20Yu%20Logo.jpg" alt ="Sin Yu Logo" width="50" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Menu</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="menu.html">Full Menu</a></li>
+                        <li><a class="dropdown-item" href="ingredients.html">Ingredients</a></li>
+                        <li><a class="dropdown-item" href="history.html">History</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- 🔹 Hero Section -->
+<header class="bg-light text-center py-5 mb-4">
+    <div class="container">
+        <h1 class="fw-bold">Welcome to Sin Yu</h1>
+        <p class="lead text-muted">Authentic Chinese-American cuisine made with tradition and care.</p>
+        <a href="menu.html" class="btn btn-danger btn-lg mt-3">Explore Our Menu</a>
+    </div>
+</header>
+
+<!-- 🔹 Image Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="Menu%20Item%20Pictures/General%20Tso’s%20Chicken.webp" class="d-block w-100" alt="General Tso’s Chicken">
+        </div>
+        <div class="carousel-item">
+            <img src="Menu%20Item%20Pictures/Beef%20with%20Broccoli.jpg" class="d-block w-100" alt="Beef with Broccoli">
+        </div>
+        <div class="carousel-item">
+            <img src="Menu%20Item%20Pictures/House%20Special%20Lo%20Mein.jpg" class="d-block w-100" alt="House Special Lo Mein">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<!-- 🔹 Featured Dishes Section -->
+<section class="container mb-5">
+    <h2 class="text-center mb-4">Popular Dishes</h2>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="Menu%20Item%20Pictures/General%20Tso’s%20Chicken.webp" class="card-img-top" alt="General Tso’s Chicken">
+                <div class="card-body text-center">
+                    <h5 class="card-title">General Tso’s Chicken</h5>
+                    <p class="card-text">Crispy chicken tossed in a sweet-spicy glaze.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="Menu%20Item%20Pictures/Beef%20with%20Broccoli.jpg" class="card-img-top" alt="Beef with Broccoli">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Beef with Broccoli</h5>
+                    <p class="card-text">Tender beef and broccoli cooked in a rich sauce.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="Menu%20Item%20Pictures/House%20Special%20Lo%20Mein.jpg" class="card-img-top" alt="House Special Lo Mein Noodles">
+                <div class="card-body text-center">
+                    <h5 class="card-title">House Special Lo Mein Noodles</h5>
+                    <p class="card-text">Soft noodles stir-fried with vegetables and choice of protein.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer bg-dark text-light py-3 mt-5">
+    <div class="container text-center">
+        <span class="small">&copy; Darren Cheng, 2025 | Terms Of Use | Privacy Statement</span>
+    </div>
+</footer>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
