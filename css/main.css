@@ -138,6 +138,14 @@ a:hover {
     color: #aaa;
     font-size: 0.9rem;
 }
+/* Sticky footer that always stays at the bottom of the viewport */
+.sticky-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1030;
+}
 
 /* ---------------------------------------------------
    RESPONSIVE FIXES
